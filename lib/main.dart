@@ -208,7 +208,7 @@ class Playlist extends StatelessWidget {
             itemCount: playlistTitles.length,
             itemBuilder: (context, index) {
               return ListTile(
-                title: Text('${playlistTitles[index]}'),
+                title: Text(playlistTitles[index]),
               );
             },
           );
